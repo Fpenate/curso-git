@@ -23,6 +23,8 @@ require realpath($pathsConfig) ?: $pathsConfig;
 
 $paths = new Config\Paths();
 // This is the line that might need to be changed, depending on your folder structure.
+// This is the line that might need to be changed, depending on your folder structure.
+// This is the line that might need to be changed, depending on your folder structure.
 
 // Location of the framework bootstrap file.
 $bootstrap = rtrim($paths->systemDirectory, '\\/ ') . DIRECTORY_SEPARATOR . 'bootstrap.php';
